@@ -1,2 +1,2 @@
-FROM ghcr.io/library/nginx:1.24-alpine
+FROM nginx:1.24-alpine
 COPY . /usr/share/nginx/html
